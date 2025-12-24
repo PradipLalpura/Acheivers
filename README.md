@@ -1,20 +1,74 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🚀 Achievers 2026
+Achievers is a productivity and motivation tracker built to help students stay disciplined throughout 2026. Powered by Google Gemini AI, the app provides smart insights and progress tracking to ensure you reach your goals.
 
-# Run and deploy your AI Studio app
+✨ Features
+AI Goal Coaching: Integrated with Gemini AI to provide personalized motivation.
 
-This contains everything you need to run your app locally.
+Progress Tracking: Visualize your daily discipline and habits.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Wze65Y1keX7esSu8SdWJyhzkS-WHcY1P
+Mobile Ready: Cross-platform support for both Web and Android (APK).
 
-## Run Locally
+Clean UI: Minimalist design for zero-distraction productivity.
 
-**Prerequisites:**  Node.js
+🛠️ Built With
+React + Vite - Fast Frontend Development
 
+Google Gemini API - Artificial Intelligence Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Capacitor - Cross-platform Mobile Support
+
+Android Studio - APK Generation
+
+🚀 Getting Started
+Prerequisites
+Node.js installed
+
+A Google Gemini API Key (Get one from Google AI Studio)
+
+Installation
+Clone the repo:
+
+Bash
+
+git clone [https://github.com/PradipLalpura/Acheivers]
+cd Acheivers 2026
+Install dependencies:
+
+Bash
+
+npm install
+Setup Environment Variables: Create a .env.local file in the root folder and add your key:
+
+Plaintext
+
+VITE_GEMINI_API_KEY=your_actual_key_here
+Run the app:
+
+Bash
+
+npm run dev
+📱 Mobile Installation (Android)
+To use this on your phone:
+
+Download the Disciplined2026.apk from the [releases/Google Drive link].
+
+Open the file on your Android device.
+
+Allow "Install from Unknown Sources" in your settings.
+
+Start tracking your goals!
+
+📂 Project Structure
+/src - React components and logic.
+
+/android - Native Android project files.
+
+/public - Static assets and icons.
+
+package.json - Project dependencies.
+
+🤝 Contributing
+Feel free to fork this project and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+📄 License
+MIT
